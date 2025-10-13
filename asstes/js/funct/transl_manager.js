@@ -7,7 +7,7 @@ export function setLanguage(lang) {
 }
 
 export function applyTranslations() {
-  if (!currentLang) currentLang = "en"; // safety fallback
+  if (!currentLang) currentLang = "en"; //safety fallback
 
   if (window.globalTranslations) {
     document.querySelectorAll("[data-i18n-global]").forEach((el) => {
