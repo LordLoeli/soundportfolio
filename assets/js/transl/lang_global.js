@@ -5,4 +5,4 @@ window.globalTranslations = {
   de: {
     global: "Ente",
   },
-};
+}; 
