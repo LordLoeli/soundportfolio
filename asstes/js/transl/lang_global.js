@@ -1,6 +1,6 @@
 window.globalTranslations = {
   en: {
-    global: "Duck",
+    global: "Duck",//debug
   },
   de: {
     global: "Ente",
