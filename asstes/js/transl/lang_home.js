@@ -1,6 +1,6 @@
 window.pageTranslations = {
   en: {
-    hw: "Hello World",
+    hw: "Hello World",//debug
   },
   de: {
      hw: "Hallo Welt",
