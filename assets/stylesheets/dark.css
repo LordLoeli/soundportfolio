@@ -85,3 +85,14 @@ button:hover {
     cursor: pointer;
     color: #b9a8c2;
 }
+@media (max-width: 768px) {
+  button,
+  .button-transparent,
+  .button-highlighted,
+  ul.topnav li a {
+    padding: 0.6rem 0.9rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin: 0.25rem;
+  }
+}
