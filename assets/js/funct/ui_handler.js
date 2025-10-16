@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("lang-de")?.addEventListener("click", () => setLanguage("de"));
 });
 
-// light & dark mode
+// light-dark mode
 const themeLink = document.getElementById("theme-link");
 const savedTheme = localStorage.getItem("theme") || "dark";
 
