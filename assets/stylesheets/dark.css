@@ -3,24 +3,36 @@
 header {
     background-color: #1E1E22;
     text-align: center;
-    padding: 12%;
+    padding: 3rem;
 }
 
 ul.topnav {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #1E1E22;
 }
+@media (max-width: 768px) {
+  ul.topnav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 ul.topnav li a {
     display: block;
     color: #EEE9F3;
-    padding: 14px 16px;
+    padding: 1rem .75rem;
     text-decoration: none;
     border: 1px solid #1E1E22;
     border-radius: 6px;
+}
+@media (max-width: 768px) {
+    ul.topnav li a:active {
+    background-color: #2a2a30;
+  }
 }
 
 ul.topnav li a:hover {
@@ -36,6 +48,8 @@ body {
     background-color: #121214;
 }
 
+
+/*Fonts*/
 p {
     color: #EEE9F3;
     font-size: 20px;
@@ -45,6 +59,8 @@ a {
     color: #EEE9F3;
 }
 
+
+/*Buttons*/
 .button-transparent {
     background-color: #121214;
     color: #EEE9F3;
